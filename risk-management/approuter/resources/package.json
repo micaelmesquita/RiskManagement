@@ -1,0 +1,16 @@
+{
+    "name": "risks",
+    "version": "0.0.1",
+    "description": "Risk Management",
+    "keywords": [
+        "ui5",
+        "openui5",
+        "sapui5"
+    ],    
+    "main": "webapp/index.html",
+    "scripts": {
+        "start": "npm start",
+        "deploy-config": "npx -p @sap/ux-ui5-tooling fiori add deploy-config cf"
+    },
+    "devDependencies": { }
+}

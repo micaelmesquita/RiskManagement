@@ -1,0 +1,34 @@
+{
+  "xsappname": "risk-management-srv",
+  "tenant-mode": "dedicated",
+  "xsenableasyncservice":"true",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.RViewer",
+      "description": "RViewer"
+    },
+    {
+      "name": "$XSAPPNAME.RManager",
+      "description": "RManager"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "RViewer",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.RViewer"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "RManager",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.RManager"
+      ],
+      "attribute-references": []
+    }
+  ]
+}
